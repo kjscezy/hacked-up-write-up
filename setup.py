@@ -13,7 +13,7 @@ if __name__ == '__main__':
         packages=['writedup'],
         entry_points={
             'console_scripts': [
-                'writed-up=writedup.main:main',
+                'writedup=writedup.main:main',
             ]
         }
     )
